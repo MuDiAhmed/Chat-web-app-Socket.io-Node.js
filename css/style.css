@@ -1,0 +1,138 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font: 13px Helvetica, Arial; }
+.forms_wrapper {
+    position: absolute;
+    bottom: 0px;
+    height: 50px;
+    overflow: hidden;
+    width: 100%;
+    border: 3px solid rgba(0,0,0,.5);
+    box-sizing: border-box;
+}
+.forms_wrapper button{
+    display: none;
+}
+#chat_form {
+    width: 60%;
+    float: left;
+    height: 100%;
+    border-right: 1px solid rgba(0,0,0,0.5);
+    box-sizing: border-box;
+
+}
+#chat_form input{
+    background: #6c93ff;
+    color: white;
+}
+#nickname_form{
+    width: 40%;
+    float: left;
+    height: 100%;
+    box-sizing: border-box;
+}
+#chat_form input,#nickname_form input{
+    width: 100%;
+    height: 100%;
+}
+#chat_wrapper{
+    position: absolute;
+    top: 0;
+    bottom: 50px;
+    background-color: #fbf9ff;
+    width: 100%;
+}
+form input { border: 0; padding: 10px; width: 90%; margin-right: .5%; }
+/*form button { width: 9%; background: rgb(130, 224, 255); border: none; padding: 10px; }*/
+#messages,#users_list,.rooms_list { list-style-type: none; margin: 0; padding: 0;float: left; }
+#users_list li,.rooms_list li{
+    padding: 10px 20px;
+}
+/*#messages li,#users_list li { padding: 5px 10px; background: #fff;color: #6c93ff; }*/
+/*#messages li:nth-child(odd),#users_list li:nth-child(odd) { background: #6c93ff; color: #fff; }*/
+.other_messages{
+
+}
+#messages{
+    width: 60%;
+    float: left;
+    height: 100%;
+    position: relative;
+}
+.online_users{
+    width: 40%;
+    height: 100%;
+    float: left;
+    background-color: #6c93ff;
+    padding: 10px;
+    position: relative;
+}
+.users_wrapper,.rooms_wrapper{
+    height: 50%;
+}
+.create_room_form input {
+    width: 60%;
+}
+.create_room_btn{
+    /*position: absolute;*/
+    right:0px ;
+    padding: 10px 20px;
+    background-color: #ffffff;
+}
+#chat_wrapper{
+    overflow: auto;
+}
+.user_messages li,.other_messages li{
+    padding: 5px;
+}
+.user_messages{
+    background-color: #ffffff;
+    max-width: 50%;
+    border: 1px solid rgba(0,0,0,1);
+    color:#6c93ff ;
+    border-radius: 16px;
+    border-top-left-radius: 0;
+    margin-left: 7px;
+    list-style-type: none;
+    padding: 10px;
+    font-size: 15px;
+}
+.other_messages{
+    background-color: #6c93ff;
+    color: #ffffff;
+    max-width: 50%;
+    border: 1px solid rgba(255,255,255,1);
+    border-radius: 20px;
+    border-top-right-radius: 0;
+    margin-left: 50%;
+    list-style-type: none;
+    padding: 10px;
+    font-size: 15px;
+}
+.rooms_chat_wrapper{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    /*height: 10px;*/
+    /*background-color: aqua;*/
+}
+.rooms_chat_wrapper .room_chat{
+    height: 250px;
+    float: left;
+    width: 200px;
+    margin: 0 5px;
+    border: 1px solid black;
+    border-bottom: 0px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    /*position: absolute;*/
+    /*bottom: 0px;*/
+    /*right: 0px;*/
+    background-color: #ffffff;
+    position: relative;
+}
+.rooms_chat_wrapper .room_chat form{
+    position: absolute;
+    bottom: 0px;
+    border-top: 1px solid rgba(0,0,0,.5);
+    width: 100%;
+}
