@@ -2,7 +2,7 @@
 chat app using socket-io and Node.JS
 
 ##Features:
-1-public chat room
+1-public chat room \n
 2-create rooms and chat on every room indvidual
 
 ##First Step
