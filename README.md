@@ -7,7 +7,6 @@ chat app using socket-io and Node.JS
 
 ##Requirements
     Node v0.12.*
-    Sails
 
 ##First Step
     Run `npm install`
