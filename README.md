@@ -3,7 +3,7 @@ chat app using socket-io and Node.JS
 
 ##Features:
     1-public chat room 
-    2-create rooms and chat on every room indvidual
+    2-create rooms and chat on every room individual
 
 ##Requirements
     Node v0.12.*
